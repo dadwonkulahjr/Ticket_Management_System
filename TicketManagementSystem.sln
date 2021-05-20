@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagementSystem", "TicketManagementSystem\TicketManagementSystem.csproj", "{DFACFE9F-450F-4F41-AF3A-D5DB98EB3755}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketManagementSystem", "TicketManagementSystem\TicketManagementSystem.csproj", "{DFACFE9F-450F-4F41-AF3A-D5DB98EB3755}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagementSystem.Models", "TicketManagementSystem.Models\TicketManagementSystem.Models.csproj", "{3DEF334B-C4E6-41B8-8503-E34279B16662}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagementSystem.DataAccess", "TicketManagementSystem.DataAccess\TicketManagementSystem.DataAccess.csproj", "{E8549F96-0913-4D59-9701-56393ADDFE9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{DFACFE9F-450F-4F41-AF3A-D5DB98EB3755}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFACFE9F-450F-4F41-AF3A-D5DB98EB3755}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFACFE9F-450F-4F41-AF3A-D5DB98EB3755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DEF334B-C4E6-41B8-8503-E34279B16662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DEF334B-C4E6-41B8-8503-E34279B16662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DEF334B-C4E6-41B8-8503-E34279B16662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DEF334B-C4E6-41B8-8503-E34279B16662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8549F96-0913-4D59-9701-56393ADDFE9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8549F96-0913-4D59-9701-56393ADDFE9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8549F96-0913-4D59-9701-56393ADDFE9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8549F96-0913-4D59-9701-56393ADDFE9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
